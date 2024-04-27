@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ZLAGODA_project.Front.ManagerMenu">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="486"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <foreground color="-3610935"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ccf80" binding="RightPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="6303e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="88b0f">
+                <constraints/>
+                <properties>
+                  <verticalScrollBarPolicy value="22"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="a53bd" layout-manager="GridBagLayout">
+                    <constraints/>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="8660f" binding="MidDataPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <foreground color="-3610935"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="fe259">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-3610935"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d9171" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-3610935"/>
+                  <fillsViewportHeight value="true"/>
+                  <foreground color="-16777216"/>
+                  <gridColor color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="2cbb5" binding="BottomPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d357" binding="bottomright" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="669fc" binding="bottomleft" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="cb0d" class="javax.swing.JButton" binding="LogoutButton">
+                <constraints/>
+                <properties>
+                  <text value="Logout"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="3f672" binding="TopPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="3b94e">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalScrollBarPolicy value="32"/>
+              <verticalScrollBarPolicy value="21"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="cf00d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e5928" class="javax.swing.JButton" binding="AddEmployeeButton">
+                    <constraints/>
+                    <properties>
+                      <text value="AddEmployee"/>
+                    </properties>
+                  </component>
+                  <component id="fa34d" class="javax.swing.JButton" binding="AddCustomerButton">
+                    <constraints/>
+                    <properties>
+                      <text value="AddCustomer"/>
+                    </properties>
+                  </component>
+                  <component id="a8c63" class="javax.swing.JButton" binding="AddCategoryButton">
+                    <constraints/>
+                    <properties>
+                      <text value="AddCategory"/>
+                    </properties>
+                  </component>
+                  <component id="7298f" class="javax.swing.JButton" binding="AddProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="AddProduct"/>
+                    </properties>
+                  </component>
+                  <component id="fba84" class="javax.swing.JButton" binding="AddStoreProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="AddStoreProduct"/>
+                    </properties>
+                  </component>
+                  <component id="e67ee" class="javax.swing.JButton" binding="EditEmployeeButton">
+                    <constraints/>
+                    <properties>
+                      <text value="EditEmployee"/>
+                    </properties>
+                  </component>
+                  <component id="43a61" class="javax.swing.JButton" binding="EditCustomerButton">
+                    <constraints/>
+                    <properties>
+                      <text value="EditCustomer"/>
+                    </properties>
+                  </component>
+                  <component id="43621" class="javax.swing.JButton" binding="EditCategoryButton">
+                    <constraints/>
+                    <properties>
+                      <text value="EditCategory"/>
+                    </properties>
+                  </component>
+                  <component id="82632" class="javax.swing.JButton" binding="EditProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="EditProduct"/>
+                    </properties>
+                  </component>
+                  <component id="1f230" class="javax.swing.JButton" binding="EditStoreProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="EditStoreProduct"/>
+                    </properties>
+                  </component>
+                  <component id="f46ba" class="javax.swing.JButton" binding="DeleteEmployeeButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteEmployee"/>
+                    </properties>
+                  </component>
+                  <component id="5f37" class="javax.swing.JButton" binding="DeleteCustomerButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteCustomer"/>
+                    </properties>
+                  </component>
+                  <component id="78a76" class="javax.swing.JButton" binding="DeleteCategoryButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteCategory"/>
+                    </properties>
+                  </component>
+                  <component id="fe187" class="javax.swing.JButton" binding="DeleteProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteProduct"/>
+                    </properties>
+                  </component>
+                  <component id="8042a" class="javax.swing.JButton" binding="DeleteStoreProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteStoreProduct"/>
+                    </properties>
+                  </component>
+                  <component id="71017" class="javax.swing.JButton" binding="DeleteCheckButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteCheck"/>
+                    </properties>
+                  </component>
+                  <component id="7ae6d" class="javax.swing.JButton" binding="AddLoginButton">
+                    <constraints/>
+                    <properties>
+                      <text value="AddLogin"/>
+                    </properties>
+                  </component>
+                  <component id="8b645" class="javax.swing.JButton" binding="EditLoginButton">
+                    <constraints/>
+                    <properties>
+                      <text value="EditLogin"/>
+                    </properties>
+                  </component>
+                  <component id="5b685" class="javax.swing.JButton" binding="DeleteLoginButton">
+                    <constraints/>
+                    <properties>
+                      <text value="DeleteLogin"/>
+                    </properties>
+                  </component>
+                  <component id="1301f" class="javax.swing.JButton" binding="PrintZvitButton">
+                    <constraints/>
+                    <properties>
+                      <text value="PrintZvit"/>
+                    </properties>
+                  </component>
+                  <component id="8bbd8" class="javax.swing.JButton" binding="FindTelephoneAndAdressButton">
+                    <constraints/>
+                    <properties>
+                      <text value="FindPhoneAndAdressOfEmployee"/>
+                    </properties>
+                  </component>
+                  <component id="cb53e" class="javax.swing.JButton" binding="FindStoreProductButton">
+                    <constraints/>
+                    <properties>
+                      <text value="FindStoreProduct"/>
+                    </properties>
+                  </component>
+                  <component id="aa6fe" class="javax.swing.JButton" binding="CalculateSumOfGoodsOfCashierButton">
+                    <constraints/>
+                    <properties>
+                      <text value="CalculateSumForCashier"/>
+                    </properties>
+                  </component>
+                  <component id="aa95e" class="javax.swing.JButton" binding="CalculateSumOfGoodsButton">
+                    <constraints/>
+                    <properties>
+                      <text value="CalculateSumForAll"/>
+                    </properties>
+                  </component>
+                  <component id="e86ac" class="javax.swing.JButton" binding="CalculateCountOfGoodsButton">
+                    <constraints/>
+                    <properties>
+                      <text value="CalculateCountForProduct"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+          <component id="3935b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Functions"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="457e" binding="LeftPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7b46a" layout-manager="GridBagLayout">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bee5f" class="javax.swing.JComboBox" binding="ShowStdTablesManager">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="2be08" class="javax.swing.JButton" binding="showButton" default-binding="true">
+                <constraints>
+                  <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Show"/>
+                </properties>
+              </component>
+              <component id="b97d1" class="javax.swing.JLabel" binding="TablesLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Tables"/>
+                </properties>
+              </component>
+              <component id="a74fb" class="javax.swing.JTextField" binding="PercentNumField">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="3cbdd" class="javax.swing.JLabel" binding="PercentLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Percent"/>
+                </properties>
+              </component>
+              <component id="59f5b" class="javax.swing.JComboBox" binding="CategoryComboBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="4d138" class="javax.swing.JLabel" binding="CategoryLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Category"/>
+                </properties>
+              </component>
+              <component id="e05de" class="javax.swing.JComboBox" binding="CashiersComboBox">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="a134e" class="javax.swing.JLabel" binding="CashiersLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Cashier"/>
+                </properties>
+              </component>
+              <component id="865d8" class="javax.swing.JTextField" binding="FromDateField">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c405d" class="javax.swing.JTextField" binding="ToDateField">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="1b301" class="javax.swing.JLabel" binding="FromDateLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="FromDate"/>
+                </properties>
+              </component>
+              <component id="6a116" class="javax.swing.JLabel" binding="ToDateLabel">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="ToDate"/>
+                </properties>
+              </component>
+              <component id="47fb7" class="javax.swing.JButton" binding="ButtonToShowGoods">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="ShowGoods"/>
+                </properties>
+              </component>
+              <component id="3698" class="javax.swing.JLabel" binding="CustomerLabel">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Customer"/>
+                </properties>
+              </component>
+              <component id="ed049" class="javax.swing.JComboBox" binding="CustomerComboBox">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="forPdf">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/forPdf" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/forPdf" recursive="false" />
+  </library>
+</component>

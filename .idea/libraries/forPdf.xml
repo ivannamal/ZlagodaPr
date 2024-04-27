@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="forPdf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/bcprov-jdk15on-1.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/io-7.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/kernel-7.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/bcutil-jdk15on-1.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/slf4j-simple-1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/bcpkix-jdk15on-1.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/commons-7.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ZLAGODA/ZLAGODA/libs/forPdf/layout-7.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

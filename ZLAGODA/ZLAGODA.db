@@ -1,0 +1,62 @@
+-- Створення таблиці Прaцівники
+CREATE TABLE Employees (
+                           ID INTEGER PRIMARY KEY,
+                           FullName TEXT,
+                           Position TEXT,
+                           Salary REAL,
+                           StartDate DATE,
+                           BirthDate DATE,
+                           PhoneNumber TEXT,
+                           Address TEXT,
+                           EmployeeType TEXT
+);
+
+-- Створення таблиці Категорії
+CREATE TABLE Categories (
+                            CategoryID INTEGER PRIMARY KEY,
+                            Name TEXT
+);
+
+-- Створення таблиці Товари
+CREATE TABLE Products (
+                          ProductID INTEGER PRIMARY KEY,
+                          Name TEXT,
+                          Manufacturer TEXT,
+                          Specifications TEXT,
+                          CategoryID INTEGER,
+                          FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
+);
+
+-- Створення таблиці Товари у магазині
+CREATE TABLE StoreProducts (
+                               UPC INTEGER PRIMARY KEY,
+                               SalePrice REAL,
+                               Quantity INTEGER,
+                               IsPromotional BOOLEAN,
+                               ProductID INTEGER,
+                               FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+
+-- Створення таблиці Чеки
+CREATE TABLE Receipts (
+                          ReceiptID INTEGER PRIMARY KEY,
+                          Date DATE,
+                          TotalAmount REAL,
+                          VAT REAL
+);
+
+-- Створення таблиці Елементи чеку
+CREATE TABLE ReceiptItems (
+                              ItemID INTEGER PRIMARY KEY,
+                              ReceiptID INTEGER,
+                              UPC INTEGER,
+                              Quantity INTEGER,
+                              FOREIGN KEY (ReceiptID) REFERENCES Receipts(ReceiptID),
+                              FOREIGN KEY (UPC) REFERENCES StoreProducts(UPC)
+);
+
+-- Створення таблиці Карти клієнта
+CREATE TABLE CustomerCards (
+                               CardNumber INTEGER PRIMARY KEY,
+                               DiscountRate REAL
+);
